@@ -8,7 +8,7 @@ router.get('/cliente', getCliente)
 
 router.get('/cliente/:id',getClienteId)
 
-router.post('/',postCliente)
+router.post('/cliente',postCliente)
 
 router.delete('/cliente/:id', deleteCliente)
 
