@@ -53,8 +53,8 @@ export const deleteCliente = async (req, res) => {
 
 export const putCliente = async (req, res) => {
   try {
-    const { id } = req.params
-    const { nombre, fecha, telefono, estado, nota, peso } = req.body
+    
+    const { nombre, fecha, telefono, estado, nota, peso ,id} = req.body
     const [resultado] = await pool.query('UPDATE cliente SET nombre=IFNULL(?,nombre),fecha=IFNULL(?,fecha),telefono=IFNULL(?,telefono),estado=IFNULL(?,estado),nota=IFNULL(?,nota),peso=IFNULL(?,peso) WHERE ID=?',
       [nombre, fecha, telefono, estado, nota, peso, id])
     if (resultado.affectedRows <= 0) {

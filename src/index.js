@@ -9,7 +9,7 @@ app.use(cors())
 app.use(express.json())
 
 
-app.use('/api',clienteRoute)
+app.use('/',clienteRoute)
 
 
 app.use((req,res,next)=>{
