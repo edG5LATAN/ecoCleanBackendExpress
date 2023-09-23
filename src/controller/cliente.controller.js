@@ -12,12 +12,11 @@ export const getCliente = async (req, res) => {
   }
 }
 
-export const postCliente = async (req, res) => {
+export const postCliente = async (req, res) => {    
+  const { nombre, fecha, telefono, estado, nota, peso } = req.body
   try {
-    const { nombre, fecha, telefono, estado, nota, peso } = req.body
-    const [resultado] = await pool.query('INSERT INTO CLIENTE(nombre,fecha,telefono,estado,nota ,peso) values(?,?,?,?,?,?)',
-      [nombre, fecha, telefono, estado, nota, peso])
-    res.send({
+    const [resultado] = await pool.query('insert into cliente(nombre,fecha,telefono,estado,nota,peso) values(?,?,?,?,?,?)',[nombre,fecha,telefono,estado,nota,peso])
+      res.send({
       id: resultado.insertId,
       nombre,
       fecha,
