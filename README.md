@@ -1,5 +1,5 @@
 
-## PROYECTO DE COMEDOR EN REACT V1.0.1
+## PROYECTO DE BACKEND LAVANDERIA V1.0.0
 
 -Proyecto de backend de mi primer trabajo a una pequeña lavanderia de mi comunidad donde en mis incios de desarrollador le cree una Express de NODEJS para cu implementacionde creacion,actualizacion,eliminary listar clientes donde creamos un simple sistema de seguridad donde se creaba un control de seguimineto de paquete dentro de la empresa. 
 
