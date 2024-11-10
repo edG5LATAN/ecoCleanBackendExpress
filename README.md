@@ -1,7 +1,7 @@
 
 ## PROYECTO DE BACKEND LAVANDERIA V1.0.0
 
--Proyecto de backend de mi primer trabajo a una pequeña lavanderia de mi comunidad donde en mis incios de desarrollador le cree una Express de NODEJS para cu implementacionde creacion,actualizacion,eliminary listar clientes donde creamos un simple sistema de seguridad donde se creaba un control de seguimineto de paquete dentro de la empresa. 
+-Proyecto de backend de mi primer trabajo a una pequeña lavanderia de mi comunidad donde en mis incios de desarrollador le cree una pagina web con React y una base de datos en Mysql y su backend con Express de NODEJS para su implementacion de creacion, actualizacion, eliminar y listar clientes donde creamos un simple sistema de seguridad donde se creaba un control de seguimineto de paquete dentro de la empresa. 
 
 
 ![Logo](https://i.pinimg.com/originals/79/c6/70/79c670029c8f86ed6e13ed35c07aa569.png)
